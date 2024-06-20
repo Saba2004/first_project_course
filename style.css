@@ -1,0 +1,84 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.title{
+    text-align: center;
+    font-size: 70px;
+    line-height: 78px;
+    color: #515076;
+    font-weight: 400;
+    margin-top: 220px;
+}
+
+.products-list{
+    list-style: none;
+    margin-top: 110px;
+    padding: 0;
+}
+
+.main-text{
+    color: #515076;
+    line-height: 18px;
+    height: 36px;
+    width: 291px;
+    margin-left: 25px;
+}
+
+.products-list h2{
+    font-weight: 700;
+    margin-top: 5px;
+    color: #515076;
+}
+
+.product{
+    background: #F7F7FA;
+    margin: 45px;
+    width: 340px;
+    height: 573px;
+}
+
+.purpose{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #A5A3B9;
+    margin-left: 25px;
+    padding-top: 5px;
+    width: 171px;
+    height: 24px;
+}
+
+.products-list img{
+    display: block;
+    padding: 25px;
+}
+
+.products-list h2{
+    margin-left: 25px;
+}
+
+.rubles{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #515076;
+}
+.price{
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #515076;
+    line-height: 24px;
+}
+
+
+.contains li{
+    line-height: 18px;
+    padding-top: 5px;
+}
+
+.contains{
+    padding-bottom: 25px;
+}
