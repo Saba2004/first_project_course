@@ -1,6 +1,9 @@
 body{
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
+    background-image: url(img/bg_1.png);
+    background-repeat: no-repeat;
+    background-position: 395px 0px;
 }
 
 .title{
@@ -13,9 +16,15 @@ body{
 }
 
 .products-list{
+    margin: 0 auto;
+    width: 1110px;
     list-style: none;
     margin-top: 110px;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
 }
 
 .main-text{
@@ -33,7 +42,6 @@ body{
 
 .product{
     background: #F7F7FA;
-    margin: 45px;
     width: 340px;
     height: 573px;
 }
@@ -59,7 +67,10 @@ body{
 }
 
 .price{
+    display: flex;
+    justify-content:space-between;
     margin-left: 25px;
+    width: 290px;
 }
 
 .price b{
@@ -75,7 +86,6 @@ body{
     font-size: 20px;
     line-height: 20px;
     color: #515076;
-    margin-left: 150px;
 }
 
 .contains li{
