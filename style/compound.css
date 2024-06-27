@@ -1,6 +1,5 @@
-.card__compound{
+.compound{
     font-size: 13px;
-    color: #515076;
     line-height: 18px;
-    margin-bottom: 25px;
+    color: #515076;
 }
